@@ -1,0 +1,17 @@
+{
+  "name": "MAC Lookup",
+  "description": "Looks up info for the selected MAC address",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "main.js"
+  },
+  "icons": {
+    "32": "icon_32x32.png",
+    "64": "icon_64x64.png"
+  }
+}
